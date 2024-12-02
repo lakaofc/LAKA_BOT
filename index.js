@@ -20,7 +20,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94704243771']
+const ownerNumber = ['94781121579']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -48,7 +48,7 @@ const {readEnv} = require('./lib/database')
 const config = await readEnv();
 //==============================================
         
-console.log("Connecting Darkalfha bot 😻...");
+console.log("Connecting Lakabot bot 😻...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -78,7 +78,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `DARK-ALFHA-MD-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `Laka Bot connected successful ✅\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/QNwLWTN/20241201-230018.jpg` }, caption: up })
 
@@ -145,9 +145,9 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 
 //================ownerreact==============
-if(senderNumber.includes("94704243771")){
+if(senderNumber.includes("94781121579")){
 if(isReact) return
-m.react("👩‍💻")
+m.react("💉")
 }
 if(senderNumber.includes("94742287793")){
 if(isReact) return
@@ -195,7 +195,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("Darkalfha, bot started✅");
+res.send("LakaBot, bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
