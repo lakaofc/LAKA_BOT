@@ -20,7 +20,7 @@ let des = `*👋 Hello ${pushname} I'm alive now*
 > *Runtime:* 3 hours, 7 minutes, 35 seconds
 > *HostName:* fv-az984-882
 
-*💥 𝙇𝘼𝙎𝙃𝙈𝙄𝙏𝙃𝘼 𝘽𝙔 𝙇𝘼𝙆𝘼-𝙈𝘿
+💥 𝙇𝘼𝙎𝙃𝙈𝙄𝙏𝙃𝘼 𝘽𝙔 𝙇𝘼𝙆𝘼-𝙈𝘿
 
 `
 
