@@ -61,6 +61,7 @@ cmd({
           await sendMessage(senderId, {
             image: { url: "https://i.ibb.co/8DKVHKN/989f5b3ba02c6ae4a494537c8dad9cdb.jpg" },
         switch (userReply) {
+            break;
           case '1':
             responseText = `kk`;
             break;
