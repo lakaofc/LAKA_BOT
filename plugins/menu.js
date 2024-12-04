@@ -7,7 +7,7 @@ const axios = require('axios')
 cmd({
   pattern: "menu",
   desc: "Commands panel",
-  react: '📜',
+  react: '📃',
   filename: __filename
 }, async (bot, message, args, options) => {
   const { from, quoted, body, reply } = options;
@@ -16,31 +16,32 @@ cmd({
     // Menu Text
     const menuText = `
 ╒✦•··············•••••••••··············•✦
-│ *Creator* : Sadeesha Tharumin
-│ *Version* : v2.0.0
+│ *Creator* : Lasmitha Praveeith
+│ *Version* : v0.1
 │ *Uptime*  : ${runtime(process.uptime())}
 │ *RAM Usage* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB
 │ *Host Name* : ${require('os').hostname()}
 ╘✦•··············•••••••••··············•✦
-*♡︎•━━━━━━☻︎━━━━━━•♡︎*
 ╭────────────●●►
-│⛵ *LIST MENU*
+│📃 *LIST MENU*
 │   ───────
 │ _1_ *❂ᴅᴏᴡɴʟᴏᴀᴅ menu❂*
-│ _2_ *❂ᴍᴀɪɴ menu❂*
-│ _3_ *AI menu*
-│ _4_ *❂ᴍᴀɪɴ menu❂*
-│ _5_ *❂ᴏᴡɴᴇʀ menu❂*
-│ _6_ *❂ᴄᴏɴᴠᴇʀᴛ menu❂*
-│ _7_ *❂sᴇᴀʀᴄʜ menu❂*
+│ _2_ *❂ᴏᴡɴᴇʀ menu❂*
+│ _3_ *❂ɢʀᴏᴜᴘ ᴍᴇɴᴜ❂*
+│ _4_ *❂ᴄᴏɴᴠᴇʀᴛ menu❂*
+│ _5_ *❂ᴀɪ ᴍᴇɴᴜ❂*
+│ _6_ *❂ꜱᴇᴀʀᴄʜ menu❂*
+│ _7_ *❂ꜱᴛɪᴄᴋʀᴛ menu❂*
+│ _8_ *❂ꜰᴜɴ menu❂*
+│ _9_ *❂ʙᴜɢ menu❂*
 ╰─────────────●●►
 *🌟 Reply the Number you want to select*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴀᴋᴀ-ᴍᴅ 👧🏻
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴀᴋᴀ-ᴍᴅ 💭
 `;
 
     // Send Menu Message
     const sentMenuMessage = await bot.sendMessage(from, {
-      image: { url: "https://i.ibb.co/QNwLWTN/20241201-230018.jpg" },
+      image: { url: "https://i.ibb.co/8DKVHKN/989f5b3ba02c6ae4a494537c8dad9cdb.jpg" },
       caption: menuText
     }, { quoted: message });
 
@@ -56,141 +57,33 @@ cmd({
 
       if (isReplyToMenu) {
         let responseText = '';
-          await sendMessage(senderId, {
-            image: { url: "https://i.ibb.co/QNwLWTN/20241201-230018.jpg" },
         switch (userReply) {
           case '1':
-            responseText = `
- ♡︎*❂ ᴅᴏᴡɴʟᴏᴀᴅ menu ❂ 📥*♡︎
-
-╭┈───────────────•
-│  ✑ *.song*
-│  
-│ ♡︎_Download YouTube song_♡︎
-╰┈───────────────●●►
-
-╭┈───────────────•
-│  ✑ *.video*
-│       
-│ ♡︎_Download YouTube video_♡︎
-╰┈───────────────•
-
-╭┈───────────────•
-│   ✑ *.fb*
-│  
-│ ♡︎_Download Facebook video_♡︎
-╰┈───────────────•
-
-╭┈───────────────•
-│   ✑ *.tiktok*
-│  
-│ ♡︎_Download TikTok video without watermark and audio_♡︎
-╰┈───────────────•
-
-╭┈───────────────•
-│   ✑ *.apk*
-│  
-│ ♡︎_Download APK_♡︎
-╰┈───────────────•
-
-╭┈───────────────•
-│   ✑ *.mfire*
-│  
-│ ♡︎_Download Mediafire link_♡︎
-╰┈───────────────•
-
-╭┈───────────────•
-│   ✑ *.gdrive*
-│
-│ ♡︎_Downloading google drive file_♡︎
-╰┈───────────────•
-
-╭┈───────────────•
-│   ✑ *.tg*    
-│       
-│ ♡︎_Downloading instagrm_♡︎
-╰┈───────────────•
-
-╭┈───────────────•
-│   ✑ *.movie*
-│   
-│ ♡︎_Downloading sinhala sub movie_♡︎
-╰┈───────────────•
-
-╭┈───────────────•
-│   ✑ *.xvdl*    
-│       
-│ ♡︎_Downloading xvideos videos_♡︎
-╰┈───────────────•
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴀᴋᴀ-ᴍᴅ 👧🏻
-`;
+            responseText = `kk`;
             break;
           case '2':
-            responseText = `
-【 *🔎 ALEXA SEARCH COMMANDS 🔎* 】
-- .img <query> : Search Google Images
-- .githubstalk <username> : Search GitHub profile
-- .movie <title> : Search movie details
-- .yts <query> : Search YouTube links
-`;
+            responseText = `kk`;
             break;
           case '3':
-            responseText = `
-【 *👯🏻 ALEXA ANIME COMMANDS 👯🏻* 】
-- .loli : Random loli image
-- .waifu : Random waifu image
-- .neko : Random neko image
-- .megumin : Random megumin image
-- .maid : Random maid image
-- .awoo : Random awoo image
-`;
+            responseText = `kk`;
             break;
           case '4':
-            responseText = `
-【 *🧙🏻 ALEXA FUN COMMANDS 🧙🏻* 】
-- .hack : Simulate a fun hacking animation
-`;
+            responseText = `kk`;
             break;
           case '5':
-            responseText = `
-【 *🪄 ALEXA CONVERT COMMANDS 🪄* 】
-- .sticker / .s : Convert photo to sticker
-- .tts <text> : Text-to-speech conversion
-`;
+            responseText = `kk`;
             break;
           case '6':
-            responseText = `
-【 *👾 ALEXA AI COMMANDS 👾* 】
-- .ai <query> : Chat with AI
-- .gpt <query> : ChatGPT-powered responses
-`;
+            responseText = `kk`;
             break;
           case '7':
-            responseText = `
-【 *🧣 ALEXA GROUP COMMANDS 🧣* 】
-- .mute : Close the group
-- .unmute : Open the group
-- .tagall <text> : Tag all group members
-`;
+            responseText = `kk`;
             break;
           case '8':
-            responseText = `
-【 *🧑🏻‍💻 ALEXA OWNER COMMANDS 🧑🏻‍💻* 】
-- .block : Block a user
-- .unblock : Unblock a user
-- .jid : Get chat JID
-- .gjid : Get group JID
-- .restart : Restart the bot
-`;
+            responseText = `kk`;
             break;
           case '9':
-            responseText = `
-【 *⚙️ ALEXA SYSTEM COMMANDS ⚙️* 】
-- .ping : Test bot speed
-- .system : Check bot status
-- .owner : Contact bot developer
-- .repo : Bot GitHub repository
-`;
+            responseText = `kk`;
             break;
           default:
             responseText = "Invalid option! Please reply with a number from 1 to 9.";
