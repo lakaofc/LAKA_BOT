@@ -15,8 +15,6 @@ cmd({
   try {
     // Menu Text
     const menuText = `╭═════════════════○
-|*👋 HELLO, ${pushname}!*
-|◆─〈 ${config.BOT_NAME} 〉─◆*
 │ *Creator* : Lasmitha Praveeith
 │ *Version* : v0.1
 │ *Uptime*  : ${runtime(process.uptime())}
