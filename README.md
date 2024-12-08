@@ -1,5 +1,5 @@
 l
-<h1 align="center">LAKA-MD 7.O</h1>
+<h1 align="center">LAKA-MD 1.O</h1>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
