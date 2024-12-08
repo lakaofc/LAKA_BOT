@@ -1,5 +1,5 @@
 l
-<h1 align="center">VAJIRA-MD 7.O</h1>
+<h1 align="center">LAKA-MD 1.O</h1>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
@@ -8,7 +8,7 @@ l
 </p>
 <p align="center">
 <a href="https://github.com/VajiraTech">
-    <img src="https://pomf2.lain.la/f/aqi35mmg.jpg"  width="700px">
+    <img src="https://i.ibb.co/N21xLgs/20241205-223523.jpg"  width="700px">
 </a>
 <hr>
 
