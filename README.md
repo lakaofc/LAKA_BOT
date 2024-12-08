@@ -8,7 +8,7 @@ l
 </p>
 <p align="center">
 <a href="https://github.com/LAKATech">
-    <img src="https://pomf2.lain.la/f/aqi35mmg.jpg"  width="700px">
+    <img src="https://i.ibb.co/N21xLgs/20241205-223523.jpg"  width="700px">
 </a>
 <hr>
 
